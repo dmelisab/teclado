@@ -1,1 +1,20 @@
+movies = [("My Life is a Movie Itself","No one knows", 2020, "200 USD")]
+othermovie = [ 
+  input("The name of the movie: "), 
+  input("The director: "), 
+  input("Year: "), 
+  input("Budget: ")       
+]
+othermovie[2] = int(othermovie[2])
+othermovie[3] = float(othermovie[3])
+# küsüratı kaldırmak için othermovie[3] = int(othermovie[3])
+movie = (othermovie)
+print(movie)
+f"{othermovie[0], othermovie[2]}"
+print(f"{othermovie[0], othermovie[2]}")
 
+movies.append(othermovie)
+print(movies)
+
+movies.remove(movies[0])
+print(movies)
