@@ -1,1 +1,14 @@
+name = input("Name of the employee: ")
+wage = input("Hourly wage of the employee: ")
+wage = float(wage)
+wage = int(wage)
+hours_worked = input("How many hours did the employee work for this month? ")
+hours_worked = float(hours_worked)
+hours_worked = int(hours_worked)
+name = name.title()
+name = name.strip()
 
+earnings = wage * hours_worked
+
+f"{name} earned {earnings} dollars this month."
+print(f"{name} earned {earnings} dollars this month.")
